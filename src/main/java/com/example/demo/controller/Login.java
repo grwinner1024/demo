@@ -15,6 +15,7 @@ public class Login {
         String userNameToMd5 = SecureUtil.md5(userName);
         String passwordToMd5 = SecureUtil.md5(password);
         map.clear();
+
         map.put("userName",userName);
         map.put("password",password);
         map.put("userNameToMd5",userNameToMd5);
